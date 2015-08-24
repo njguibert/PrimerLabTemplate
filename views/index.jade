@@ -1,0 +1,57 @@
+extends layout
+
+block content
+  h1
+    label Sistemas de Control-Laboratorio 1
+  h3
+    label Sistema de seguridad
+  .left
+    table(id='tabla')
+      thead
+        tr
+          td Nombre
+          td Estado
+          td Accion
+        tr
+      tbody
+        tr  
+          td Alarma
+          td Desactivada
+          td -
+        tr
+          td Luces
+          td Apagadas
+          td
+            input(type="button",value="Prender",id="btn")
+        tr
+          td Cajafuerte
+          td Cerrada
+          td -
+  .right
+    label Imagen de la camara
+  #clear(style='clear:both')
+  h3
+    label Logs
+  table(id="tbl_informacion")
+    thead
+      tr
+        td(style="width:20%") Fecha y Hora
+        td Informacion
+    tbody
+      tr
+        td 
+          label 24/08/2015 : 04:15:00 -
+        td
+          label Alarma Desactivada por Bluetooth
+        td 
+      tr
+        td 
+          label 24/08/2015 : 04:15:30 -
+        td
+          label Alarma Activada por Bluetooth
+      tr
+        td 
+          label 24/08/2015 : 04:17:00 -
+        td
+          label Alarma Desactivada Manualmente
+

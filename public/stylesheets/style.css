@@ -1,0 +1,35 @@
+body {
+
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+div.container {
+	margin: 15px;
+}
+div.left ,div.right{
+	float:left;
+	padding: 10px;
+	width: 40%;
+}
+div.lef{
+
+}
+div.right{
+
+}
+#tabla{
+	width:100%;border:1px solid black
+}
+#tabla thead{
+	font-weight: bold;
+}
+#tbl_informacion{
+	width:100%;border:1px solid black
+}
+#tbl_informacion thead{
+	font-weight: bold;
+}
